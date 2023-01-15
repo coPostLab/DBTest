@@ -1,0 +1,12 @@
+CREATE TABLE hockeyPlayer (
+  player_number INTEGER NOT NULL,
+  full_name TEXT NOT NULL
+);
+
+INSERT INTO hockeyPlayer (player_number, full_name) VALUES (0, 'Kato Kodai');
+INSERT INTO hockeyPlayer (player_number, full_name) VALUES (1, 'Sasaki Tariku');
+INSERT INTO hockeyPlayer (player_number, full_name) VALUES (2, 'Toyota Carolla');
+INSERT INTO hockeyPlayer (player_number, full_name) VALUES (3, 'Yamada Koki');
+INSERT INTO hockeyPlayer (player_number, full_name) VALUES (4, 'Inoue Tsuyoshi');
+
+SELECT * FROM hockeyPlayer;
